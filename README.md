@@ -3,12 +3,12 @@
 Game is played on the terminal by specifying the indexes of the pieces you want to move. The game is built on a non-bidirectional hierarchy model where the lower levels deal with core game logic and higher levels interact with the user and send commands to the lower levels. This means that most of the input valid is performed at the higher levels. 
 
 * Highest Level to lowest level:
-	1. main.py -> Runs the actual game and asks for player's names
-	2. checkers.py -> Validates all of the input that is inputted to board logic and plays the game
-	3. board.py -> Implements core game logic (ex: Force-jumping as much as possible, checking who won/draw,
+	1. **main.py** -> Runs the actual game and asks for player's names
+	2. **checkers.py** -> Validates all of the input that is inputted to board logic and plays the game
+	3. **board.py** -> Implements core game logic (ex: Force-jumping as much as possible, checking who won/draw,
 			captures pieces, returns the entire updatd board as a string to be printed to the terminal)
-	4. piece.py -> Each piece (black/red) on the board is an instance of this Piece class. 
-	5. util.py -> Handles enumerations and unicode characters for printing of board/pieces.
+	4. **piece.py** -> Each piece (black/red) on the board is an instance of this Piece class. 
+	5. **util.py** -> Handles enumerations and unicode characters for printing of board/pieces.
 
 #####NOTE: Must be run with Python 3
 
@@ -36,4 +36,4 @@ Game is played on the terminal by specifying the indexes of the pieces you want 
 
 ###Plans for AI:
 * Alpha-Beta Pruning with Iterative Deepening. Please don't do Depth-first search or Breadth First Search on this. You will be wasting resources. 
-* Don't create all the children at once for each board node, otherwise there is no point of doing Alpha-Beta Pruning and Minimax wouls suffice. 
+* Don't create all the children at once for each board node, otherwise there is no point of doing Alpha-Beta Pruning and Minimax would suffice. 
