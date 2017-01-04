@@ -26,6 +26,8 @@ Game is played on the terminal by specifying the indexes of the pieces you want 
 
 [![Screen Shot 2017-01-04 at 6.53.23 AM.png](https://s23.postimg.org/spu38nnhn/Screen_Shot_2017_01_04_at_6_53_23_AM.png)](https://postimg.org/image/dtvk12c2v/)
 
+###After First Move:
+
 [![Screen Shot 2017-01-04 at 6.53.49 AM.png](https://s27.postimg.org/49m6j5mhv/Screen_Shot_2017_01_04_at_6_53_49_AM.png)](https://postimg.org/image/5onr7vnkv/)
 
 ###Things not done yet:
