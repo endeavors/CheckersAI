@@ -24,12 +24,9 @@ Game is played on the terminal by specifying the indexes of the pieces you want 
 
 ###Start of Game:
 
-[![Screen Shot 2017-01-04 at 6.53.23 AM.png](https://s29.postimg.org/3y3uksdnb/Screen_Shot_2017_01_04_at_6_53_23_AM.png)](https://postimg.org/image/e869k13ir/)
+[![Screen Shot 2017-01-04 at 6.53.23 AM.png](https://s23.postimg.org/spu38nnhn/Screen_Shot_2017_01_04_at_6_53_23_AM.png)](https://postimg.org/image/dtvk12c2v/)
 
-
-###After First Move:
-
-[![Screen Shot 2017-01-04 at 6.53.49 AM.png](https://s23.postimg.org/nvo3nnx4b/Screen_Shot_2017_01_04_at_6_53_49_AM.png)](https://postimg.org/image/aer54smsn/)
+[![Screen Shot 2017-01-04 at 6.53.49 AM.png](https://s29.postimg.org/60vr4moav/Screen_Shot_2017_01_04_at_6_53_49_AM.png)](https://postimg.org/image/qxrz9ambn/)
 
 ###Things not done yet:
 * No kings are crowned currently. This means when a piece gets to the end of the row = 0 or row = 7, it doesn't have the ability to move backwards as of now.
